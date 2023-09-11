@@ -23,11 +23,13 @@
         </style>
     </head>
     <body>
-        <div class="loginPage-container">
-            <h1>Login page</h1>
-            <input type="text" id="username" name="username" placeholder="Username" />
-            <input type="password" id="password" name="password" placeholder="Password"/>
-
+        <div class="container">
+            <div class="loginPage-container">
+                <h1>Login page</h1>
+                <input type="text" id="username" name="username" placeholder="Username" />
+                <input type="password" id="password" name="password" placeholder="Password"/>
+                <input type="submit" />
+            </div>
         </div>
 
     </body>

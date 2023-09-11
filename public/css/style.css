@@ -6,12 +6,20 @@ body{
     height: 100%;
 }
 
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .loginPage-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 30vh;
+    border: 1px solid black;
+    padding: 30px;
 }
 
 h1 {
@@ -22,4 +30,8 @@ input {
     /* height: 100px; */
     /* width: 300px; */
     border: 1px solid black;
+}
+
+p {
+    margin: 0;
 }
